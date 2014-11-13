@@ -1,5 +1,5 @@
-%{?!MYSQL: %define MYSQL 1}
-%{?!PGSQL: %define PGSQL 0}
+%{?!MYSQL: %define MYSQL 0}
+%{?!PGSQL: %define PGSQL 1}
 %define LDAP 2
 %define PCRE 1
 %define SASL 2
